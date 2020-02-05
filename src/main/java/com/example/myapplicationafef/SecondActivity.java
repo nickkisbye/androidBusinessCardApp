@@ -19,13 +19,14 @@ public class SecondActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void goToThirdPage(View view) {
-        Intent intent = new Intent(this, ThirdActivity.class);
-        startActivity(intent);
-    }
-
     public void goToSecondPage(View view) {
         Intent intent = new Intent(this, SecondActivity.class);
         startActivity(intent);
     }
+    
+        public void goToThirdPage(View view) {
+        Intent intent = new Intent(this, ThirdActivity.class);
+        startActivity(intent);
+    }
+    
 }
